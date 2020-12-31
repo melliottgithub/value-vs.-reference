@@ -1,3 +1,4 @@
+'use strict';
 /* passed: by value vs by reference */
 
 /* passed by reference
@@ -48,7 +49,7 @@ console.log(array);
 
 /* (most) Everything else is passed by value */
 
-const num = 1;
+const num = 1; // location is created and saved in memory 
 
 const passByValue= (number) => {
     number = 2;
